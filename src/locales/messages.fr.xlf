@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="fr">
+    <body>
+      <trans-unit id="about.title" datatype="html">
+        <source>About this app</source>
+        <target>À propos de cette application</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.content" datatype="html">
+        <source>This is a demo app of an Angular project with internationalization. 🙂</source>
+        <target>Ceci est une application de démonstration d'un projet Angular avec internationalisation. 🙂</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hello" datatype="html">
+        <source>Hello, <x id="INTERPOLATION" equiv-text="{{ title }}"/></source>
+        <target>Bonjour, <x id="INTERPOLATION" equiv-text="{{ title }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">228,229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="congratulations" datatype="html">
+        <source>Congratulations! Your app is running. 🎉</source>
+        <target>Féliciations ! Votre application fonctionne. 🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">229,230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linkAbout" datatype="html">
+        <source>About</source>
+        <target>À propos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">231,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linkDocs" datatype="html">
+        <source>Explore the Docs</source>
+        <target>Explorer la Documentation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linkTutorials" datatype="html">
+        <source>Learn with Tutorials</source>
+        <target>Apprendre avec des Tutoriels</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linkCliDocs" datatype="html">
+        <source>CLI Docs</source>
+        <target>Documentation de la CLI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linkLanguageService" datatype="html">
+        <source>Angular Language Service</source>
+        <target>Service linguistique Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="linkDevTools" datatype="html">
+        <source>Angular DevTools</source>
+        <target>DevTools Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

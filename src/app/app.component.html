@@ -225,19 +225,16 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
-      <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <h1 i18n="@@hello">Hello, {{ title }}</h1>
+      <p i18n="@@congratulations">Congratulations! Your app is running. 🎉</p>
+      <div style="margin-top: 40px;">
+        <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page" i18n="@@linkAbout">About</a>
+      </div>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <div class="pill-group">
-        @for (item of [
-          { title: 'Explore the Docs', link: 'https://angular.dev' },
-          { title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials' },
-          { title: 'CLI Docs', link: 'https://angular.dev/tools/cli' },
-          { title: 'Angular Language Service', link: 'https://angular.dev/tools/language-service' },
-          { title: 'Angular DevTools', link: 'https://angular.dev/tools/devtools' },
-        ]; track item.title) {
+        @for (item of links; track item.title) {
           <a
             class="pill"
             [href]="item.link"
@@ -324,6 +321,7 @@
   </div>
 </main>
 
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
@@ -333,4 +331,8 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet />
+<div style="display: flex; justify-content: center;">
+  <div style="padding: 40px 60px; background: ghostwhite; border-radius: 8px;">
+    <router-outlet />
+  </div>
+</div>

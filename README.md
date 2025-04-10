@@ -1,59 +1,35 @@
-# AngularI18n
+# angular-i18n
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+This is an Angular project template with internationalization (i18n).
 
-## Development server
+Find out more about this repository on the [Polygot's blog](https://polygothq.com/blog).
 
-To start a local development server, run:
+## Tech stack
 
-```bash
-ng serve
-```
+- [Angular v19.2](https://angular.dev/)
+- Typescript v5.7
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Features
 
-## Code scaffolding
+- internationalization mecanism
+- localization in English and French
+- route-based locale selection using NGINX
+- automation-ready for [Polygot](https://polygothq.com)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Dev
 
 ```bash
-ng generate --help
+cd angular-i18n
+npm install
+ng serve --configuration=fr
 ```
 
-## Building
+## About Polygot
 
-To build the project run:
+Polygot is the fastest way to localize your projects.
 
-```bash
-ng build
-```
+Scale your website or app globally with Polygot's AI localization engine. Generate, manage, and continuously update translations in minutes.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+[Give it a try for free](https://polygothq.com).
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[<img src="/logo.svg" width="200" />](https://polygothq.com)

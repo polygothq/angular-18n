@@ -1,0 +1,9 @@
+{
+  "projectId": "",
+  "i18nConfigs": [
+    {
+      "source": "i18n/locales/messages.xlf",
+      "target": "i18n/locales/messages.%lang%.%ext%"
+    }
+  ]
+}
